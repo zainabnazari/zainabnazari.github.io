@@ -1,6 +1,6 @@
 ---
 title: "Relativistic Curvature"
-excerpt: "This is Short description of portfolio item number 1<br/><img src='gravity.JPG'>"
+excerpt: "This is Short description of portfolio item number 1<br/><img src='space.JPG'>"
 collection: portfolio
 ---
 
