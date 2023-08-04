@@ -1,6 +1,6 @@
 ---
 title: "Relativistic Curvature"
-excerpt: "This is Short description of portfolio item number 1<br/><img src='space.JPG'>"
+excerpt: "Curved spacetime <br/><img src='space.JPG'>"
 collection: portfolio
 ---
 
