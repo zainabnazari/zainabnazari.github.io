@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello, and welcome to my webpage. I am a researcher in Rita Levi-Montalcini foundation [EBRI (European Brain Research Institute)](https://www.ebri.it/). I work on data analysis of Parkinson's disease applying machine learning techniques.
+Hi and welcome to my webpage! I am a  bioinformatics researcher at the [European Brain Research Institute (EBRI)](https://www.ebri.it/), with a background in theoretical high-energy physics and student in high-performance computing. My current focus is on utilizing RNA sequencing data and machine learning techniques  of Parkinson's disease, aiming for more accurate diagnosis and a deeper understanding of the condition.
