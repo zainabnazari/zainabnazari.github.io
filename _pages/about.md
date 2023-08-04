@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am Zainab and welccome to my webpage. I am currently a researcher in Rita Levi-Montalcini foundation EBRI (European Brain Research Institute). I work on data analysis of Parkinson's disease applying machine learning techniques.
+Hello, and welcome to my webpage. I am a researcher in Rita Levi-Montalcini foundation [EBRI](https://www.ebri.it/) (European Brain Research Institute). I work on data analysis of Parkinson's disease applying machine learning techniques.
