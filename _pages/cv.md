@@ -15,3 +15,5 @@ Education
 * Diploma in Theoretical High Energy Physics, International Centre for Theoretical Physics (ICTP), 2014
 * M.S. in Particle Physics, Alzahra Univeristy, 2013
 * B.S. in Atomic Physics, Semnan University, 2011
+
+[Full Curriculum Vitae](https://www.dropbox.com/scl/fi/794707cpzq15dusz4ld06/CV.pdf?rlkey=hwfo8jwqmxz8v65xvvv8jgxqb&dl=0)
