@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi and welcome to my webpage! I am a  bioinformatics researcher at the [European Brain Research Institute (EBRI)](https://www.ebri.it/), with a background in theoretical high-energy physics and student in high-performance computing. My current focus is on utilizing RNA sequencing data and machine learning techniques  of Parkinson's disease, aiming for more accurate diagnosis and a deeper understanding of the condition.
+Hi and welcome to my webpage! I am a  bioinformatics researcher at the [European Brain Research Institute (EBRI)](https://www.ebri.it/), with a background in theoretical high-energy physics and student in high-performance computing. My current focus is on utilizing RNA sequencing data and machine learning techniques aiming for more accurate diagnosis and a deeper understanding of Parkinson's disease, and other neurodegenerative diseases. 
