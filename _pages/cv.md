@@ -18,6 +18,7 @@ Education
 * B.S. in Atomic Physics, Semnan University, 2011
 
 [Full Curriculum Vitae in English](https://www.dropbox.com/scl/fi/794707cpzq15dusz4ld06/CV.pdf?rlkey=hwfo8jwqmxz8v65xvvv8jgxqb&dl=0)
+
 [Short Curriculum Vitae in Italian](https://www.dropbox.com/scl/fi/npiclffvp0fjd04xptg4n/cv-Zainab-Nazari-2024.pdf?rlkey=kfe5clk8nhrbynm0fynb4i1pt&st=94oldf25&dl=0)
 
 Current Project 
