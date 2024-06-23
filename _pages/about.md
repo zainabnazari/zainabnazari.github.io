@@ -11,6 +11,6 @@ I am a researcher affiliated with the  [European Brain Research Institute (EBRI)
 
 My primary research focus involves utilizing RNA sequencing, clinical, and proteomic data of neodegenerative diseases through advanced machine learning techniques. This endeavor is aimed at achieving more precise diagnostics, predictive modeling, and a profound comprehension of neurodegenerative diseases.
 
-I am currently focusing on Parkinson's disease and Progressive supranuclear palsy (PSP) which is a rare Parkinsonian disorder.
+I am currently focusing on Parkinson's disease and Progressive Supranuclear Palsy (PSP) which is a rare Parkinsonian disorder.
 
 [Github repository](https://github.com/zainabnazari/ppmi?tab=readme-ov-file)
