@@ -7,10 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a researcher affiliated with the  [European Brain Research Institute (EBRI)](https://www.ebri.it/) Bioinformatics lab.
+- I am a postdoctoral researcher at the European Brain Research Institute (EBRI) in the Bioinformatics Lab, and a visiting scientist at the Scuola Normale Superiore in Francesco Raimondo’s group.
 
-My primary research focus involves utilizing RNA sequencing (single and bulk), clinical, and proteomic data of neodegenerative diseases through advanced machine learning techniques. This endeavor is aimed at achieving more precise diagnostics, predictive modeling, and a profound comprehension of neurodegenerative diseases.
+My research applies machine and deep learning to RNA-seq (bulk and single-cell), clinical, and proteomic data from neurodegenerative diseases and cancer. In cancer, I focus on single-cell RNA-seq to study patient responses to immune checkpoint inhibitors (ICIs), aiming to improve diagnostics, prediction, and pathway discovery.
 
-I am currently focusing on Parkinson's disease and Progressive Supranuclear Palsy (PSP) which is a rare Parkinsonian disorder.
+- I obtained a Master’s in High Performance Computing (MHPC) from ICTP and SISSA. The program provided in-depth training in parallel computing, HPC architecture, performance optimization, and scientific computing.
 
-[Github repository](https://github.com/zainabnazari/ppmi?tab=readme-ov-file)
+- During my PhD, I somehow managed to quantum tunnel through wildly different fields—starting with three-dimensional massive supergravity solutions, exploring exotic supersymmetric configurations that sparked my curiosity. Then, I dove into the mysterious world of integrable models via the gauge/Yang-Baxter equation correspondence, bridging supersymmetric gauge theories and exactly solvable statistical models. Finally, I jumped (more like quantum-leaped) into simulating oscillons in the early universe using GRChombo, watching tiny localized energy lumps collapse into black holes. So yes, my research journey looks like a superposition of supergravity, integrability, and numerical relativity, through different phases.
+
+
+-- Update: 2025.05.31
