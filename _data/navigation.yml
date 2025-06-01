@@ -1,15 +1,7 @@
 # main links links
 main:
   - title: "Curriculum Vitae"
-    url: /cv/ 
-    
-  - title: "Painting"
-    url: /portfolio/
-    
-     
-    
- 
-    
-  
-    
+    url: /cv/
 
+  - title: "Painting"
+    url: /painting/
