@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Painting Gallery | Zainab Nazari</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    .container a {
+      color: #2c8235;
+      text-decoration: none;
+    }
+
+    .container a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); <!-- to change sizing--!>
+      gap: 10px;
+    }
+
+    .painting {
+      background-color: #fafafa;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    .painting img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .description {
+      margin-top: 10px;
+      display: none;
+      text-align: left;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    nav {
+  background-color: #000;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2em;
+  font-weight: 400;
+  font-size: 1.05em;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #2c8235;
+}
+
+nav a.active {
+  font-weight: 600;
+  color: #2c8235;
+}
+
+nav a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: #2c8235;
+  border-radius: 1px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #333;
+  color: white;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="painting.html">Painting</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="blog.html">Blog</a>
+    <a href="cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to My Painting Gallery</h1>
+    <p>Click on each painting to see the details.</p>
+
+    <div class="gallery">
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/nnetwork.jpg" alt="Painting 9">
+        <div class="description"><b>Neural Network </b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/nnetwork.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/brain.jpg" alt="Painting 12">
+        <div class="description"><b>Brain Territories </b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/brain.jpg')">here</span>.</div>
+      </div>
+
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting1.jpg" alt="Painting 1">
+        <div class="description"><b>The Face of Microglia</b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting1.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting2.jpg" alt="Painting 2">
+        <div class="description"><b>Chrismas Brain</b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting2.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting3.jpg" alt="Painting 3">
+        <div class="description"><b>RNA-Seq Decision Tree</b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting3.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting4.jpg" alt="Painting 4">
+        <div class="description"><b>Sagittarius A*</b>: The First Image of the Black Hole at the Center of the Milky Way galaxy, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting4.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting5.jpg" alt="Painting 5">
+        <div class="description"><b>Curved Spacetime</b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting5.jpg')">here</span>.</div>
+      </div>
+
+      <div class="painting" onclick="toggleDescription(this)">
+        <img src="images/painting6.jpg" alt="Painting 6">
+        <div class="description"><b>Green Life and CERN</b>, to see it larger click <span style="color:#2c8235; text-decoration:underline; cursor:pointer;" onclick="showModal('images/painting6.jpg')">here</span>.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleDescription(element) {
+      const desc = element.querySelector('.description');
+      desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+    }
+    <!-- These two functions are added to show the paintings larger on click -->
+
+    function showModal(imageSrc) {
+     const modal = document.getElementById('imageModal');
+     const modalImage = document.getElementById('modalImage');
+     modalImage.src = imageSrc;
+     modal.style.display = 'block';
+    }
+
+    function closeModal() {
+     document.getElementById('imageModal').style.display = 'none';
+    }
+  </script>
+
+
+  <!-- Modal Structure -->
+  <div id="imageModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color: rgba(0,0,0,0.8);">
+    <span onclick="closeModal()" style="position:absolute; top:20px; right:35px; color:white; font-size:40px; font-weight:bold; cursor:pointer;">&times;</span>
+    <img id="modalImage" style="display:block; margin:auto; max-width:90%; max-height:90%; margin-top:5%;">
+  </div>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      if (href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+  <footer>
+    © 2025 Zainab Nazari. 
+  </footer>
+</body>
+</html>

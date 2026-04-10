@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zainab Nazari | Outreach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="painting.html">Painting</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="blog.html">Blog</a>
+    <a href="cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- Outreach Post 1 Preview -->
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+        Machine Learning Workshop for Afghanistan 2025
+      </p>
+      <p class="date" style="color: #777;">29, 30 Sep., 1st Oct.  1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        We have organised an online  three-day Machine Learning workshop with the team of Physics Without Frontier of Afghanistan and Collaboration
+        with European Brain Research Institute (EBRI), the first two days were dedicated to training basics of pyhton  to introduction on
+        Neural Networks.
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="outreach/ml_2025.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+  <!-- 2019 School  -->
+
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+        PWF Afghanistan: School on Theoretical and Experimental Concepts in High Energy Physics
+      </p>
+      <p class="date" style="color: #777;">29, 30 Sep., 1st Oct.  1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        Team of Physics Without Frontier of Afghanistan will organise a three days Machine Learning workshop, the Purpose of this workshop is ..
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="outreach/school_2019.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+    <!-- Repeat similar blocks for more posts -->
+
+    <!-- Outreach Post 1 Preview -->
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+        PWF and Afghanistan
+      </p>
+      <p class="date" style="color: #777;">June 1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        I was born in Afghanistan and raised in Iran, shaped by displacement and resilience. From an early age, the shadows of...
+      </p>
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="outreach/pwf.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Zainab Nazari. All rights reserved.
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      if (href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+</body>
+</html>

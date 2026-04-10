@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zainab Nazari | Outreach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="painting.html">Painting</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="blog.html">Blog</a>
+    <a href="cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- Outreach Post 1 Preview -->
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+        Microglia
+      </p>
+      <p class="date" style="color: #777;">29, 30 Sep., 1st Oct.  1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        Team of Physics Without Frontier of Afghanistan will organise a three days Machine Learning workshop, the Purpose of this workshop is ..
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="posts/micro.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+  <!-- 2019 School  -->
+
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+Brain      </p>
+      <p class="date" style="color: #777;">29, 30 Sep., 1st Oct.  1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        Team of Physics Without Frontier of Afghanistan will organise a three days Machine Learning workshop, the Purpose of this workshop is ..
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="posts/brain.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+    <!-- Repeat similar blocks for more posts -->
+
+    <!-- Outreach Post 1 Preview -->
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.6em; color: #2c3e50;">
+      Science Meets Canvas
+      </p>
+      <p class="date" style="color: #777;">June 1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+        How art and science merged in my latest acrylic painting inspired by early-universe structures...
+      </p>
+      <div class="research-buttons" style="margin-top: 1em;">
+        <a class="button" href="posts/science-meets-canvas.html" style="padding: 0.4em 0.9em; background-color: #2c8235; color: white; text-decoration: none; border-radius: 6px; font-size: 0.95em;">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Zainab Nazari. 
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      if (href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+</body>
+</html>

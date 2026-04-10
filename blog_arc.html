@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zainab Nazari | Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="painting.html">Painting</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="blog.html">Blog</a>
+    <a href="cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+
+<!---------------->
+    <div class="post-preview">
+      <h2><a href="posts/micro.html">Microglia</a></h2>
+      <p class="date">June 1, 2025</p>
+      <p>
+        How art and science merged in my latest acrylic painting inspired by early-universe structures...
+        <a href="posts/micro.html">Read more</a>
+      </p>
+    </div>
+
+    <!---------------->
+
+    <div class="post-preview">
+      <h2><a href="posts/brain.html">Brain</a></h2>
+      <p class="date">June 1, 2025</p>
+      <p>
+        How art and science merged in my latest acrylic painting inspired by early-universe structures...
+        <a href="posts/brain.html">Read more</a>
+      </p>
+    </div>
+
+    <div class="post-preview">
+      <h2><a href="posts/science-meets-canvas.html">Science Meets Canvas</a></h2>
+      <p class="date">June 1, 2025</p>
+      <p>
+        How art and science merged in my latest acrylic painting inspired by early-universe structures...
+        <a href="posts/science-meets-canvas.html">Read more</a>
+      </p>
+    </div>
+
+
+    <script>
+      const links = document.querySelectorAll("nav a");
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+      links.forEach(link => {
+        const href = link.getAttribute("href");
+        if (href === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+    <footer>
+      © 2025 Zainab Nazari. All rights reserved.
+    </footer>
+</body>
+</html>

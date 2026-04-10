@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Science Meets Canvas</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">About</a>
+    <a href="../research.html">Research</a>
+    <a href="../painting.html">Painting</a>
+    <a href="../outreach.html">Outreach</a>
+    <a href="../blog.html">Blog</a>
+    <a href="../cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+    <h1>Science Meets Canvas</h1>
+    <p class="date">June 1, 2025</p>
+
+    <p>
+      In this post, I reflect on the creative intersection of data and brushstrokes.
+      Inspired by patterns in bioinformatics and the dynamics of early-universe oscillons,
+      my latest acrylic piece captures the essence of structure and emergence in nature.
+    </p>
+
+    <p>
+      Translating scientific beauty into visual form allowed me to express mathematical and biological
+      ideas in an emotional language, one that viewers can experience intuitively—even without knowing
+      the equations behind the inspiration.
+    </p>
+
+    <p>
+      This painting is also featured in the <a href="../painting.html">Painting</a> section.
+    </p>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      if (href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PWF and Afghanistan | Zainab Nazari</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">About</a>
+    <a href="../research.html">Research</a>
+    <a href="../painting.html">Painting</a>
+    <a href="../outreach.html">Outreach</a>
+    <a href="../blog.html">Blog</a>
+    <a href="../cv.html">CV</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="research-entry" style="margin-bottom: 2em; padding: 2em; border: 1px solid #ddd; border-radius: 16px; background-color: #fefefe; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p class="research-title" style="font-weight: bold; font-size: 1.8em; color: #2c3e50;">
+        PWF and Afghanistan
+      </p>
+      <p class="date" style="color: #777;">June 1, 2025</p>
+      <p style="margin-top: 0.8em; line-height: 1.6; font-size: 1.05em; color: #333;">
+      </p>
+      The full details of the program can be found <a href="https://zainabnazari.github.io/PWF_workshop_python_notebook/" target="_blank" rel="noopener noreferrer"> here</a> along with all
+      notebooks of trainings as well as slides for the last day of the workshop which was dedicated
+      to bring experties in physics where theeir research is application of Machine Learning / AI
+    </div>
+
+    <div style="margin-top: 1.5em; display: flex; gap: 1em; flex-wrap: wrap;">
+  <img src="image/layla.png" alt="Workshop photo 1" style="width: 250px; border-radius: 12px;">
+  <img src="image/ramazan.png" alt="Workshop photo 2" style="width: 250px; border-radius: 12px;">
+
+
+
+  </div>
+
+  <footer>
+    © 2025 Zainab Nazari. All rights reserved.
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      if (href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+</body>
+</html>
